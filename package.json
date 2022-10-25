@@ -4,7 +4,11 @@
   "description": "Implementing app in heroku (cloud service)",
   "main": "http_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+
+    "start": "node http_server.js",
+    
   },
   "author": "",
   "license": "MIT",
@@ -16,5 +20,10 @@
     "faker": "^6.6.6",
     "lowdb": "^1.0.0",
     "superagent": "^8.0.2"
+  },
+  "engines": {
+
+    "node": "14.x"
+
   }
 }
